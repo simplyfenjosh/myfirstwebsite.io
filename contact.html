@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Safaris</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="229727703.png" alt="Prime Safaris Logo" class="logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="form">
+        <h2>Get in Touch with Us</h2>
+        <p>
+          We are excited to hear from you! whether you have a question, need
+          more information, or want to book a Safari, we are here to help.
+        </p>
+
+        <fieldset>
+          <h2>Contact Form</h2>
+          <form action="">
+            <label for="fullName">Full Name</label><br />
+            <input type="text" name="fullName" id="fullName" /><br />
+
+            <label for="tel">Tel.No.</label><br />
+            <input type="tel" name="tel" id="tel" /><br />
+
+            <label for="email">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="you@email.com"
+            /><br />
+            <br />
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="How may we help you"
+            ></textarea
+            ><br />
+            <input type="submit" id="submit" value="Send" />
+          </form>
+        </fieldset>
+      </section>
+      <section class="info">
+        <h2>Contact Information</h2>
+
+        <div class="contact-details">
+          <p>📍 <strong>Address:</strong> P.O Box 12345, Kampala, Uganda</p>
+          <p>
+            📞 <strong>Phone:</strong>
+            <a href="tel:+256755300503">+256 755 300 503</a> /
+            <a href="tel:+256760558546">+256 760 558 546</a>
+          </p>
+          <p>
+            📧 <strong>Email:</strong>
+            <a href="mailto:alenibryan2@gmail.com">alenibryan2@gmail.com</a> /
+            <a href="mailto:fenjosh92@gmail.com">fenjosh92@gmail.com</a>
+          </p>
+        </div>
+
+        <h2>Business Hours</h2>
+        <div class="business-hours">
+          <p><strong>Monday – Friday:</strong> 8:00 AM – 6:00 PM</p>
+          <p><strong>Saturday – Sunday:</strong> 9:00 AM – 10:00 PM</p>
+        </div>
+      </section>
+      <section class="book-safari">
+        <h2>Book a Safari</h2>
+        <p>
+          Ready to explore the wild? Fill out the form below and start your
+          adventure with Prime Safaris.
+        </p>
+
+        <form class="safari-form" action="#" method="post">
+          <label for="name">Full Name:</label><br />
+          <input type="text" id="name" name="name" required /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="mail" name="email" required /><br />
+
+          <label for="phone">Phone Number:</label><br />
+          <input type="tel" id="phone" name="phone" required /><br />
+
+          <label for="dates">Preferred Travel Dates:</label><br />
+          <input
+            type="text"
+            id="dates"
+            name="dates"
+            placeholder="e.g. Dec 20 - Dec 25, 2025"
+            required
+          /><br />
+
+          <label for="package">Safari Package:</label><br />
+          <select id="package" name="package">
+            <option value="gorilla">Gorilla Trekking</option>
+            <option value="wildlife">Wildlife Safari</option>
+            <option value="cultural">Cultural Tour</option>
+            <option value="custom">Custom Safari</option></select
+          ><br />
+
+          <label for="message">Additional Notes:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Let us know any preferences or questions..."
+          ></textarea
+          ><br />
+
+          <input type="submit" value="Submit Booking" />
+        </form>
+      </section>
+      <section class="map-section">
+        <h2>Map of Uganda’s Top Tourist Sites</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3027872.273095399!2d30.514626467904183!3d1.4285206362241305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgame%20parks%20in%20uganda!5e1!3m2!1sen!2sug!4v1759931739816!5m2!1sen!2sug"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Tourist Map of Uganda"
+        ></iframe>
+      </section>
+
+      <h3>Follow Us on Social Media</h3>
+      <ul>
+        <li>Facebook:<a href="https://facebook.com">Prime Safaris</a></li>
+        <li>Twitter:<a href="https://twitter.com"> @PrimeSafaris</a></li>
+        <li>Instagram: <a href="https://instagram.com">@PrimeSafaris</a></li>
+      </ul>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-section">
+          <h4>About Prime Safaris</h4>
+          <p>
+            Prime Safaris offers unforgettable safari experiences across Uganda
+            — from gorilla trekking to cultural tours. We focus on eco-tourism,
+            safety, and personalized travel.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: info@primesafaris.com</p>
+          <p>Phone: +256 700 000 000</p>
+          <p>Location: Kampala, Uganda</p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook">🌐 Facebook</a><br />
+            <a href="#" aria-label="Instagram">📸 Instagram</a><br />
+            <a href="#" aria-label="Twitter">✖️ Twitter</a><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Prime Safaris. All rights reserved. |
+          <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
